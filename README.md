@@ -76,6 +76,9 @@ download libyuv
 	# I hate svn too :)
 	svn checkout http://libyuv.googlecode.com/svn/trunk/ libyuv
 
+download x264 (should be submodule, but I get some error so download it manually as a workaround.)
+	git clone git://git.videolan.org/x264.git
+
 setup freetype environemtn
 
 	cd freetype
